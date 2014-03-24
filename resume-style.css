@@ -1,0 +1,52 @@
+body {
+	font-family: "Palatino Linotype", Georgia, Serif;
+}
+
+h1 {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+h2 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 1px;
+}
+
+#address {
+	text-align: center;
+}
+
+#address>h1{
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+#address>div{
+	display: inline-block;                                                     
+}
+
+.company-name {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.job-info {
+
+}
+
+.job-title {
+	font-style: italic;
+}
+
+ul.no-bullets {
+	list-style-type: none;
+}
