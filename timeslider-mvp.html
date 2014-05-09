@@ -10,9 +10,9 @@
     $(function() {
       $('#slider-range').slider({
         range: true,
-        min: 0,
-        max: 500,
-        values: [75, 300],
+        min: -3000,
+        max: 2014,
+        values: [-300, 1776],
         slide: function(event, ui) {
           $('#amount').val('$' + ui.values[0] + ' - $' + ui.values[1]);
         }
