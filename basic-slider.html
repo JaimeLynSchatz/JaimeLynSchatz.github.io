@@ -9,15 +9,8 @@
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script>
   $(function() {
-    $( "#slider" ).slider({
-      min: -1750,
-      max: 2014,
-      value: [-476],
-      slide: function(event, ui) {
-        $('amount').val('$' + ui.value[0]);
-      }
-    };
-  });
+    $( "#slider" ).slider()
+  };
   </script>
 </head>
 <body>
