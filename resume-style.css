@@ -49,6 +49,15 @@ ul {
 	margin-bottom: 2px;
 }
 
+#blurb {
+	text-align: center;
+}
+
+#online {
+	margin-top: 5px;
+	display:inline-block;
+}
+
 #address>div{
 	display: inline-block;                                                     
 }
@@ -68,13 +77,4 @@ ul {
 
 ul.no-bullets {
 	list-style-type: none;
-}
-
-#blurb {
-	text-align: center;
-}
-
-#online {
-	margin-top: 5px;
-	display:inline-block;
 }
