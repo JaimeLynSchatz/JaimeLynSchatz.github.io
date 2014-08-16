@@ -49,14 +49,11 @@ ul {
 	margin-bottom: 2px;
 }
 
-#blurb {
-	text-align: center;
-	font-style: italic;
-}
-
 #online {
 	margin-top: 5px;
-	display:inline-block;
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
 }
 
 #address>div{
