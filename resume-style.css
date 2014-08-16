@@ -19,6 +19,7 @@ background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0EDFF 100%);
 background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0EDFF 100%);
 body {
 	font-family: "Palatino Linotype", Georgia, Serif;
+	background-color: #CCCCCC;
 }
 
 h1 {
