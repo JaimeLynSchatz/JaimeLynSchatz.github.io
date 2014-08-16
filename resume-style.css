@@ -51,7 +51,7 @@ ul {
 
 #online {
 	margin-top: 5px;
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	font-style: italic;
 }
