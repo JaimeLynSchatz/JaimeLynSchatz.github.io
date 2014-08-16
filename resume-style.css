@@ -19,7 +19,6 @@ background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0EDFF 100%);
 background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0EDFF 100%);
 body {
 	font-family: "Palatino Linotype", Georgia, Serif;
-	background-color: #CCCCCC;
 }
 
 h1 {
@@ -42,12 +41,15 @@ ul {
 }
 
 #address {
+	width: 100%;
+	background-color: #999999;
 	text-align: center;
 }
 
 #address>h1{
 	margin-top: 5px;
 	margin-bottom: 2px;
+	text-align: right;
 }
 
 #online {
