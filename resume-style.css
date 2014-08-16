@@ -74,6 +74,9 @@ a {
 	font-size: 1.2rem;
 }
 
+.company-name>a {
+	display: inline;
+}
 .job-info {
 
 }
