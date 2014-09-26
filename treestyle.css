@@ -59,13 +59,15 @@ input, select { vertical-align: middle; }
 
 body {
     background: url('trees_bkgd.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    color: rgb(56, 65, 1);
 }
 
 .container {
 	position: absolute;
-    background-color: rgba(170, 214, 243, .85);
-    top: 45%;
-	left: 45%;
+    background-color: rgba(170, 214, 243, 0.85);
+    top: 40%;
+	left: 35%;
 	padding: 5px;
 	border-radius: 5px;
 	margin-left: 10px;
@@ -74,4 +76,28 @@ body {
 article {
 
 
+}
+
+h1 {
+	font-size: 2em;
+	padding: 0 5px 5px 5px;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 5px;
+}
+
+#projects div {
+	display: inline-block;
+}
+
+#projects div img{
+	width: 165px;
+	height: 125px;
+	/*background-color: rgba(234, 241, 15, 0.85);*/
+	border: 1px solid rgba(134, 143, 3, 0.85);
+	border-radius: 5px;
 }
