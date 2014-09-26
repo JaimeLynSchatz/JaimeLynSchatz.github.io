@@ -90,6 +90,17 @@ h2 {
 	margin-bottom: 5px;
 }
 
+.center {
+	text-align: center;
+	top: 20px;
+}
+ol{
+  color: rgb(56, 65, 1);
+  font-weight: 400;
+  font-size: 18px;
+  list-style-position: inside;
+}
+
 #projects div {
 	display: inline-block;
 }
@@ -100,4 +111,12 @@ h2 {
 	/*background-color: rgba(234, 241, 15, 0.85);*/
 	border: 1px solid rgba(134, 143, 3, 0.85);
 	border-radius: 5px;
+}
+
+#projects div h3 {
+	width: 165px;
+	height: 125px;
+	/*background-color: rgba(234, 241, 15, 0.85);*/
+	border: 1px solid rgba(134, 143, 3, 0.85);
+	border-radius: 5px;	
 }
