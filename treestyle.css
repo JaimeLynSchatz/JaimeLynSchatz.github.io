@@ -58,7 +58,7 @@ input, select { vertical-align: middle; }
 */
 
 body {
-    background: url('trees_bkgd.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
+    background: url('trees_bkgd_optimized.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
     font-family: sans-serif;
     color: rgb(56, 65, 1);
 }
