@@ -1,7 +1,5 @@
-Win-Deck
-========
-A quick hacked up version of Haiku Deck from the dark times when:
-1. There was no Haiku Deck for Windows machines
-2. All I had was a Windows machine
+JaimeLynSchatz.github.io
+========================
+Here is my home base on the web.
 
-Using an antiquated verion of Foundation, I hacked this slider together as part of an application for Haiku Deck. I didn't get the job, but I learned a lot. Originally deployed on Azure. Pulled when my 30 day trial ran out ;). (Ah, the days before I knew about GitHub pages...)
+I use this both as a resume/portfolio hosting sight as well as a quickie CDN for quickly sharing pictures and such with remote teams. The directory is rather messy, but I will bring order to the chaos eventually. When I get tired of sweeping up yak sheddings, I'll pick up that particular shaver. :)
