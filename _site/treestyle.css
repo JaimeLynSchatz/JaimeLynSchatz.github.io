@@ -1,0 +1,192 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+
+/*
+  Medium Blue: rgb(128, 175, 219)
+  Light Blue: rgb(170, 214, 243)
+  Dark Green: rgb(56, 65, 1)
+  Medium Green: rgb(134, 143, 3)
+  Light Green: rgb(234, 241, 15)
+*/
+
+body {
+    background: url('trees_bkgd_optimized.jpg') repeat fixed center center / cover  rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    color: rgb(56, 65, 1);
+}
+
+.container {
+	position: absolute;
+    background-color: rgba(170, 214, 243, 0.85);
+    top: 40%;
+	left: 35%;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+article {
+
+
+}
+
+h1 {
+	font-size: 2em;
+	padding: 0 5px 5px 5px;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 5px;
+}
+
+.center {
+	text-align: center;
+	top: 20px;
+}
+ol{
+  color: rgb(56, 65, 1);
+  font-weight: 400;
+  font-size: 18px;
+  list-style-position: inside;
+}
+
+#projects div {
+	display: inline-block;
+}
+
+#projects div img{
+	width: 165px;
+	height: 125px;
+	/*background-color: rgba(234, 241, 15, 0.85);*/
+	border: 1px solid rgba(134, 143, 3, 0.85);
+	border-radius: 5px;
+}
+
+#projects div h3 {
+	width: 165px;
+	height: 125px;
+	/*background-color: rgba(234, 241, 15, 0.85);*/
+	border: 1px solid rgba(134, 143, 3, 0.85);
+	border-radius: 5px;	
+}
+
+.social_sprite {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.#twitter {
+	right: 50px;
+}
+}
+
+#social{
+width:188px;
+height:90px;
+margin:0px 0px 40px 0px;
+padding: 0px;
+}
+
+#social .social_header {
+margin-bottom: 10px;
+}
+
+#social a.facebook {
+display:block;
+float:left;
+height:60px;
+width:60px;
+margin:0px;
+text-indent:-9999px;
+background-image:url('sprites/social_sprites.png');
+background-position:0px -64px;
+}
+
+#social a:hover.facebook {
+background-image:url('sprites/social_sprites.png');
+background-position:0px 0px;
+}
+
+#social a.twitter {
+display:block;
+float:left;
+height:60px;
+width:60px;
+margin-left:2px;
+text-indent:-9999px;
+background-image:url('sprites/social_sprites.png');
+background-position:-64px -64px;
+}
+
+#social a:hover.twitter {
+background-image:url('sprites/social_sprites.png');
+background-position:-64px 0px;
+}
+
+#social a.youtube{
+display:block;
+float:left;
+height:60px;
+width:60px;
+margin-left:2px;
+text-indent:-9999px;
+background-image:url('sprites/social_sprites.png');
+background-position:-128px -64px;
+}
+
+#social a:hover.youtube {
+background-image:url('sprites/social_sprites.png');
+background-position:-128px 0px;
+}

@@ -1,0 +1,91 @@
+body {
+	font-size: 15px;
+	font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+h1 {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+h2 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 1px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold;
+}
+
+#container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#gravatar {
+	border-radius: 100%;
+	width: 20px;
+}
+
+#address {
+	width: 100%;
+	overflow: auto;
+	display: inline-block;
+	background-color: #f3f3f3;
+	text-align: center;
+	font-weight: bold;
+}
+
+#jaime {
+	display: inline-block;
+	text-align: left;
+	font-size: 16px;
+}
+
+#contact {
+	display: inline-block;
+	float: right;
+}
+
+#address {
+	text-decoration: none;
+	list-style: none;
+}
+
+#address>li{
+	display: inline-block;   
+	padding: 5px;                                                  
+}
+
+.company-name {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.company-name>a {
+	display: inline;
+}
+
+.job-info {
+
+}
+
+.job-title {
+	font-style: italic;
+}
+
+ul.no-bullets {
+	list-style-type: none;
+}
